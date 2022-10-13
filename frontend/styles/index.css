@@ -62,6 +62,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ::-moz-selection {
@@ -74,8 +76,6 @@
 }
 
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-family: var(--font-serif);
   color: var(--cool-400);
@@ -115,6 +115,7 @@ h2 {
   margin-bottom: .5rem;
   font-size: var(--text-xl);
   line-height: var(--leading-xl);
+  font-weight: 400;
 }
 
 ul {
@@ -129,7 +130,7 @@ li {
 
 a {
   color: var(--blue-500);
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
 }
 
