@@ -129,14 +129,14 @@ li {
 }
 
 a {
-  color: var(--blue-500);
+  color: var(--yellow-600);
   font-weight: 600;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-  color: var(--blue-700);
+  color: var(--yellow-600);
 }
 
 .container {
@@ -171,5 +171,5 @@ pre {
 }
 
 .site-header {
-  border-top: .5rem solid var(--yellow-600);
+  border-top: .25rem solid var(--yellow-600);
 }
