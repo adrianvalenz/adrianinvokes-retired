@@ -6,7 +6,7 @@ title: "Adrian Valenzuela"
 subtitle: "Artist, Designer, & Developer"
 ---
 
-### Hello!, I'm Adrian
+### Hello, I'm Adrian!
 Welcome to my site! I am a self-taught web developer with a focus on Ruby on Rails. 
 I'm also a graphic designer and digital artist.
 I write on my [blog](/posts) about code, art, music, and [more](/values). You
