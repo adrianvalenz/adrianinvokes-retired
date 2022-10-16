@@ -151,6 +151,11 @@ code, pre {
   font-size: 1rem;
 }
 
+.highlighter-rouge {
+  font-size: .75rem;
+  background-color: var(--blue-50);
+}
+
 pre {
   /* line-height: ? */
   overflow-x: scroll;
