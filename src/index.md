@@ -9,7 +9,7 @@ subtitle: "Artist, Designer, & Developer"
 ### Hello, I'm Adrian!
 Welcome to my site! I am a self-taught web developer with a focus on Ruby on Rails. 
 I'm also a graphic designer and digital artist.
-I write on my [blog](/posts) about code, art, music, and [more](/values). You
+I write on my [blog](/blog) about code, art, music, and [more](/values). You
 can also find info on how the [site](/site) was built and some of the tech and
 software I [use](/uses) to build it.
 

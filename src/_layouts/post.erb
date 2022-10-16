@@ -4,10 +4,19 @@ layout: default
 
 <div class="container">
   <h1><%= data.title %></h1>
+  <% if data.date %><div><span><%= data.date.strftime("%^b %d, %Y") %></span></div><% end %>
 </div>
 
 <div class="container">
   <%= yield %>
+</div>
+
+<div class="container" id="signature">
+  <% if data.author %>
+    <div><span style="font-style: italic;">— <%= data.author.capitalize %></span>
+  <% else %>
+    <span style="background-color: var(--cool-400); color: var(--cool-100); padding: .5rem 1rem;">Missing author name!</span>
+  <% end %>
 </div>
 
 <div class="container">

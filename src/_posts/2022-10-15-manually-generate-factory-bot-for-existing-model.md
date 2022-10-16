@@ -3,6 +3,7 @@ layout: post
 title: "Manually generate a Factory for a Model after created"
 date: 2022-10-15
 author: adrian
+categories: code
 ---
 
 If you ever need to create a factory for an existing model, all you have to do
