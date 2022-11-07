@@ -2,16 +2,28 @@
 @import "fonts/jetbrains-mono/jbm.css";
 
 :root {
-  --blue-50: #F0F4FF;
-  --blue-100: #B1CAFB;
-  --blue-200: #76A2F4;
-  --blue-300: #4480EE;
-  --blue-400: #266AE8;
-  --blue-500: #1456D2;
-  --blue-600: #0E46AF;
-  --blue-700: #09368B;
-  --blue-800: #05296B;
-  --blue-900: #021A45;
+  --blue-50: hsl(204, 100%, 97%);
+  --blue-100: hsl(203, 100%, 93%);
+  --blue-200: hsl(203, 92%, 85%);
+  --blue-300: hsl(203, 99%, 72%);
+  --blue-400: hsl(203, 92%, 59%);
+  --blue-500: hsl(203, 99%, 48%);
+  --blue-600: hsl(203, 96%, 37%);
+  --blue-700: hsl(203, 95%, 26%);
+  --blue-800: hsl(202, 100%, 18%);
+  --blue-900: hsl(203, 100%, 12%);
+
+  --cool-50: hsl(210, 20%, 98%);
+  --cool-100: hsl(207, 22%, 92%);
+  --cool-200: hsl(204, 22%, 82%);
+  --cool-300: hsl(203, 22%, 77%);
+  --cool-400: hsl(204, 22%, 70%);
+  --cool-500: hsl(204, 22%, 61%);
+  --cool-600: hsl(205, 22%, 50%);
+  --cool-700: hsl(203, 22%, 42%);
+  --cool-800: hsl(204, 22%, 33%);
+  --cool-900: hsl(205, 22%, 23%);
+  /* old palette */
   --yellow-50: #FFFFFA;
   --yellow-100: #FFFEDB;
   --yellow-200: #FFFC9E;
@@ -22,16 +34,6 @@
   --yellow-700: #575400;
   --yellow-800: #383500;
   --yellow-900: #1A1800;
-  --cool-50: #F2F2F3;
-  --cool-100: #DFE0E1;
-  --cool-200: #BFC1C4;
-  --cool-300: #91959C;
-  --cool-400: #62686F;
-  --cool-500: #474C52;
-  --cool-600: #2F3237;
-  --cool-700: #1F2123;
-  --cool-800: #161718;
-  --cool-900: #111212;
   
   --font-serif: "chaparral-pro", serif;
   --font-display: "chaparral-pro-display", serif;
@@ -78,7 +80,7 @@
 body {
   text-rendering: optimizeLegibility;
   font-family: var(--font-serif);
-  color: var(--cool-600);
+  color: var(--cool-900);
   background-color: var(--cool-50);
   font-size: 1rem;
   line-height: 1.5;
@@ -182,6 +184,10 @@ code {
   color: var(--blue-500);
 }
 
+img {
+  max-width: 100%;
+}
+
 img,
 video,
 pre {
@@ -189,5 +195,5 @@ pre {
 }
 
 .site-header {
-  border-top: .25rem solid var(--yellow-600);
+  border-top: .25rem solid var(--blue-500);
 }
